@@ -10,6 +10,7 @@ TagManager:
   - Wukong
   - box
   - TheWall
+  - Floor
   layers:
   - Default
   - TransparentFX

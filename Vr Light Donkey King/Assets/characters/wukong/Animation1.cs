@@ -10,7 +10,7 @@ public class Animation1 : MonoBehaviour
     public int vd;
     public static int jumpKey = 0;
     public static int intentos = 3;
-    public static int vidas = 5;
+    public static int vidas = 3;
     public static Vector3 Respaun;
     public Vector3 ResMon;
     public GameObject pj;
@@ -21,6 +21,7 @@ public class Animation1 : MonoBehaviour
     public static bool inmortals;
     public float imortalTimer = 3;
     public bool inmorMonitor;
+    public static int Goblins;
 
     // Start is called before the first frame update
     public void Respauwn()
@@ -54,7 +55,7 @@ public class Animation1 : MonoBehaviour
         {
             Respauwn();
             intentos--;
-            vidas = 5;
+            vidas = 3;
         }
     }
     public void mortale()
